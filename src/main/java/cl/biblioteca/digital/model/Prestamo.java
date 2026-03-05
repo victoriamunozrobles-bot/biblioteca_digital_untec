@@ -4,11 +4,11 @@ import java.sql.Date;
 
 public class Prestamo {
     private int idPrestamo;
-    private int idSocio;
+    private int idUsuario;
     private int idLibro;
     private Date fechaPrestamo;
     private Date fechaDevolucion;
-    private String nombreSocio;
+    private String nombreUsuario;
     private String tituloLibro;
 
     public Prestamo() {
@@ -22,12 +22,12 @@ public class Prestamo {
         this.idPrestamo = idPrestamo;
     }
 
-    public int getIdSocio() {
-        return idSocio;
+    public int getIdUsuario() {
+        return idUsuario;
     }
 
-    public void setIdSocio(int idSocio) {
-        this.idSocio = idSocio;
+    public void setIdUsuario(int idUsuario) {
+        this.idUsuario = idUsuario;
     }
 
     public int getIdLibro() {
@@ -54,12 +54,12 @@ public class Prestamo {
         this.fechaDevolucion = fechaDevolucion;
     }
 
-    public String getNombreSocio() {
-        return nombreSocio;
+    public String getNombreUsuario() {
+        return nombreUsuario;
     }
 
-    public void setNombreSocio(String nombreSocio) {
-        this.nombreSocio = nombreSocio;
+    public void setNombreUsuario(String nombreUsuario) {
+        this.nombreUsuario = nombreUsuario;
     }
 
     public String getTituloLibro() {

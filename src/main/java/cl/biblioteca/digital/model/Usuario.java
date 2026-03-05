@@ -1,20 +1,22 @@
 package cl.biblioteca.digital.model;
 
-public class Socio {
-    private int idSocio;
+public class Usuario {
+    private int idUsuario;
     private String nombre;
     private String email;
     private String password;
 
-    public Socio() {
+    public Usuario() {
     }
 
-    public int getIdSocio() {
-        return idSocio;
+    public int getIdUsuario() {
+        return idUsuario;
     }
 
-    public void setIdSocio(int idSocio) {
-        this.idSocio = idSocio;
+    public void setIdUsuario(int idUsuario
+
+    ) {
+        this.idUsuario = idUsuario;
     }
 
     public String getNombre() {

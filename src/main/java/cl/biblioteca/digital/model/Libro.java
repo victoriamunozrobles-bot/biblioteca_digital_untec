@@ -3,7 +3,7 @@ package cl.biblioteca.digital.model;
 public class Libro {
     private int idLibro;
     private String titulo;
-    private String artista;
+    private String autor;
     private int anioLanzamiento;
     private String genero;
     private boolean disponible;
@@ -11,10 +11,10 @@ public class Libro {
     public Libro() {
     }
 
-    public Libro(int idLibro, String titulo, String artista, int anioLanzamiento, String genero, boolean disponible) {
+    public Libro(int idLibro, String titulo, String autor, int anioLanzamiento, String genero, boolean disponible) {
         this.idLibro = idLibro;
         this.titulo = titulo;
-        this.artista = artista;
+        this.autor = autor;
         this.anioLanzamiento = anioLanzamiento;
         this.genero = genero;
         this.disponible = disponible;
@@ -36,12 +36,12 @@ public class Libro {
         this.titulo = titulo;
     }
 
-    public String getArtista() {
-        return artista;
+    public String getAutor() {
+        return autor;
     }
 
-    public void setArtista(String artista) {
-        this.artista = artista;
+    public void setAutor(String autor) {
+        this.autor = autor;
     }
 
     public int getAnioLanzamiento() {

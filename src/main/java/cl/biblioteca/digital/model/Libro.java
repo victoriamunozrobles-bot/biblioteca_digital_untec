@@ -1,0 +1,126 @@
+package cl.biblioteca.digital.model;
+
+public class Libro {
+    private int idLibro;
+    private String titulo;
+    private String autor;
+    private int anioLanzamiento;
+    private String genero;
+    private boolean disponible;
+    private String isbn;
+    private int ejemplaresTotales;
+    private int ejemplaresDisponibles;
+    private String portada;
+    private String sinopsis;
+    private String editorial;
+
+    public Libro() {
+    }
+
+    public Libro(int idLibro, String titulo, String autor, int anioLanzamiento, String genero, boolean disponible) {
+        this.idLibro = idLibro;
+        this.titulo = titulo;
+        this.autor = autor;
+        this.anioLanzamiento = anioLanzamiento;
+        this.genero = genero;
+        this.disponible = disponible;
+    }
+
+    public int getIdLibro() {
+        return idLibro;
+    }
+
+    public void setIdLibro(int idLibro) {
+        this.idLibro = idLibro;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public int getAnioLanzamiento() {
+        return anioLanzamiento;
+    }
+
+    public void setAnioLanzamiento(int anioLanzamiento) {
+        this.anioLanzamiento = anioLanzamiento;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+
+    public boolean isDisponible() {
+        return disponible;
+    }
+
+    public void setDisponible(boolean disponible) {
+        this.disponible = disponible;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
+    }
+
+    public int getEjemplaresTotales() {
+        return ejemplaresTotales;
+    }
+
+    public void setEjemplaresTotales(int ejemplaresTotales) {
+        this.ejemplaresTotales = ejemplaresTotales;
+    }
+
+    public int getEjemplaresDisponibles() {
+        return ejemplaresDisponibles;
+    }
+
+    public void setEjemplaresDisponibles(int ejemplaresDisponibles) {
+        this.ejemplaresDisponibles = ejemplaresDisponibles;
+    }
+
+    public String getPortada() {
+        return portada;
+    }
+
+    public void setPortada(String portada) {
+        this.portada = portada;
+    }
+
+    public String getSinopsis() {
+        return sinopsis;
+    }
+
+    public void setSinopsis(String sinopsis) {
+        this.sinopsis = sinopsis;
+    }
+
+    public String getEditorial() {
+        return editorial;
+    }
+
+    public void setEditorial(String editorial) {
+        this.editorial = editorial;
+
+    }
+
+}

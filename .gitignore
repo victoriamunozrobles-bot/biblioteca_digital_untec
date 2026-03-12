@@ -1,0 +1,12 @@
+# Ignorar credenciales de base de datos
+src/main/resources/db.properties
+
+# Ignorar carpetas de compilación de Java 
+target/
+build/
+.settings/
+.classpath
+.project
+
+# Ignorar configuraciones locales de VS Code
+.vscode/
